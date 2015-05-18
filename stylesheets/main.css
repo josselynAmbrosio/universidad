@@ -5523,7 +5523,8 @@ button.close {
 ========================================*/
 .navbar-default {
   background-color: white;
-  margin: 0px; }
+  margin: 0px;
+  border-bottom-color: gray; }
 
 .navbar-brand img {
   width: 65%; }
@@ -5542,9 +5543,6 @@ button.close {
 .background {
   background-image: url(../icon/palet.png);
   height: 100%; }
-
-.nav-scroll {
-  margin-top: 67px; }
 
 .glyphicon {
   display: block;
@@ -5573,7 +5571,13 @@ a {
   padding-left: 0px; }
 
 ul.nav.nav-pills.nav-stacked {
-  width: 9%;
   background-color: white; }
+
+aside {
+  position: fixed;
+  top: 25%; }
+
+div#bs-example-navbar-collapse-1 {
+  padding-left: 0px; }
 
 /*# sourceMappingURL=main.css.map */

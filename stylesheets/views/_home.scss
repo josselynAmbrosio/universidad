@@ -2,6 +2,7 @@
 .navbar-default {
   background-color: white;
   margin: 0px;
+  border-bottom-color: gray	;
 }
 .navbar-brand img{
 	width: 65%;
@@ -23,9 +24,6 @@
 	background-image: url(../icon/palet.png);
 	height: 100%;
 }
- .nav-scroll {
-    margin-top: 67px;
-}
 .glyphicon {
 	display: block;
 	font-size: 40px;
@@ -44,7 +42,7 @@ hr {
 a {
   color: gray;
   text-align: center;
-    font-size: 12px;
+   font-size: 12px;
   }
 
 .nav > li > a{
@@ -54,6 +52,13 @@ a {
 	padding-left: 0px;
 }
 ul.nav.nav-pills.nav-stacked {
-  width: 9%;
   background-color: white;
 }
+aside{
+	position: fixed;
+	  top: 25%;
+}
+ div#bs-example-navbar-collapse-1{
+ 	   padding-left: 0px;
+
+ }
