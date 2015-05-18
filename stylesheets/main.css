@@ -5521,5 +5521,59 @@ button.close {
 /*========================================
 =             APP CUSTOM                 =
 ========================================*/
+.navbar-default {
+  background-color: white;
+  margin: 0px; }
+
+.navbar-brand img {
+  width: 65%; }
+
+.navbar-brand {
+  height: 79px; }
+
+.navbar-nav > li > a {
+  padding-top: 22px;
+  padding-bottom: 24px; }
+
+.navbar {
+  position: fixed;
+  width: 100%; }
+
+.background {
+  background-image: url(../icon/palet.png);
+  height: 100%; }
+
+.nav-scroll {
+  margin-top: 67px; }
+
+.glyphicon {
+  display: block;
+  font-size: 40px;
+  margin: 2px 30px; }
+
+hr {
+  border-color: gray;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.men {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: white; }
+
+a {
+  color: gray;
+  text-align: center;
+  font-size: 12px; }
+
+.nav > li > a {
+  padding: 28px 13px; }
+
+.container-fluid {
+  padding-left: 0px; }
+
+ul.nav.nav-pills.nav-stacked {
+  width: 9%;
+  background-color: white; }
 
 /*# sourceMappingURL=main.css.map */
