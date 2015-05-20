@@ -5521,10 +5521,46 @@ button.close {
 /*========================================
 =             APP CUSTOM                 =
 ========================================*/
+.gray {
+  background-color: gray; }
+
+.white {
+  color: white; }
+
+.margin {
+  margin: 0% 2% 0% 0%; }
+
+.f-white {
+  background-color: white; }
+
+.espacio {
+  margin-bottom: 2%; }
+
+.opcional {
+  padding-bottom: 10%; }
+
+.right {
+  border-right: 1px solid #d4c9c9;
+  margin-top: 2%; }
+
+.left {
+  border-left: 1px solid #d4c9c9;
+  margin-top: 2%; }
+
+.titulo {
+  font-family: "PathwayGothicOne-Regular"; }
+
+.font a {
+  font-size: 22px; }
+
+@font-face {
+  font-family: PathwayGothicOne-Regular;
+  src: url(../fonts/PathwayGothicOne-Regular.ttf); }
 .navbar-default {
   background-color: white;
   margin: 0px;
-  border-bottom-color: gray; }
+  font-size: 22px;
+  border-color: gray; }
 
 .navbar-brand img {
   width: 65%; }
@@ -5532,17 +5568,22 @@ button.close {
 .navbar-brand {
   height: 79px; }
 
+.fondo {
+  background-image: url(../icon/palet.png); }
+
 .navbar-nav > li > a {
   padding-top: 22px;
   padding-bottom: 24px; }
 
 .navbar {
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  z-index: 10;
+  border-bottom-color: gray; }
 
 .background {
   background-image: url(../icon/palet.png);
-  height: 100%; }
+  height: 30%; }
 
 .glyphicon {
   display: block;
@@ -5562,7 +5603,15 @@ hr {
 a {
   color: gray;
   text-align: center;
-  font-size: 12px; }
+  font-family: "PathwayGothicOne-Regular";
+  font-size: 18px; }
+
+a:hover {
+  color: red; }
+
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: fff; }
 
 .nav > li > a {
   padding: 28px 13px; }
@@ -5575,9 +5624,79 @@ ul.nav.nav-pills.nav-stacked {
 
 aside {
   position: fixed;
-  top: 25%; }
+  top: 202px;
+  z-index: 10; }
 
 div#bs-example-navbar-collapse-1 {
   padding-left: 0px; }
+
+.red {
+  background-color: red;
+  height: 400px; }
+
+li.canbio {
+  background-color: white; }
+
+li.nombre {
+  position: relative;
+  left: 61%;
+  margin-top: 6%;
+  font-size: 25px; }
+
+.columnas {
+  background-image: url(../icon/palet.png);
+  /*position: fixed;*/
+  /*overflow: hidden;*/
+  /*height: 100%;*/
+  /*overflow-y: scroll;*/ }
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+img {
+  border-radius: 50%; }
+
+.flecha {
+  background-color: rgba(15, 124, 219, 0.78);
+  width: 10%;
+  border-radius: 50%;
+  padding: 3%; }
+
+.flecha img {
+  width: 106%; }
+
+.seguir span {
+  float: right;
+  margin-right: 143px;
+  color: #4499e3;
+  margin-bottom: 6%; }
+
+.flecha {
+  background-color: rgba(15, 124, 219, 0.78);
+  width: 9%;
+  border-radius: 50%;
+  padding: 3%;
+  position: absolute; }
+
+.texto-principal h3 {
+  margin-top: 89px; }
+
+h5 {
+  font-size: 18px; }
+
+.footer {
+  padding: 5% 0% 1% 33%;
+  font-size: 16px; }
+
+.ojo img {
+  width: 15%; }
+
+.ojo {
+  text-align: center; }
+
+.clik {
+  text-align: center;
+  color: red; }
 
 /*# sourceMappingURL=main.css.map */

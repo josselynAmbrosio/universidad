@@ -1,1 +1,33 @@
 //Colocar aquí clases utilitarias para todo el sitio. Por ejemplo: márgenes, alineación de texto y color de texto.
+.gray{
+	background-color: gray;
+}
+.white{
+	color: white;
+}
+.margin{
+	  margin: 0% 2% 0% 0%;
+}
+.f-white{
+	background-color: white;
+}
+.espacio{
+	margin-bottom: 2%;
+}
+.opcional{
+	  padding-bottom: 10%;
+}
+.right {
+  border-right: 1px solid rgb(212, 201, 201);
+  margin-top: 2%;
+}
+.left{
+ border-left: 1px solid rgb(212, 201, 201);
+  margin-top: 2%;
+}
+.titulo{
+	font-family: "PathwayGothicOne-Regular";
+}
+.font a{
+	font-size: 22px;
+}
