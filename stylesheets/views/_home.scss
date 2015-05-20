@@ -9,13 +9,6 @@
   font-size: 22px;
     border-color: gray;
 }
-.navbar-brand img{
-	width: 65%;
-}
-.navbar-brand{
-	height: 79px;
-
-}
 
 .fondo{
   background-image: url(../icon/palet.png);
@@ -30,6 +23,10 @@
   width: 100%;
   z-index: 10;
   border-bottom-color: gray;
+}
+.navbar-brand img {
+  width: 72%;
+  margin: auto 0% auto 62%;
 }
 .background{
 	background-image: url(../icon/palet.png);
