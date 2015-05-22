@@ -5537,7 +5537,7 @@ button.close {
   margin-bottom: 2%; }
 
 .opcional {
-  padding-bottom: 10%; }
+  padding-bottom: 12%; }
 
 .right {
   border-right: 1px solid #d4c9c9;
@@ -5622,7 +5622,7 @@ ul.nav.nav-pills.nav-stacked {
 
 aside {
   position: fixed;
-  top: 202px;
+  top: 200px;
   z-index: 10; }
 
 div#bs-example-navbar-collapse-1 {
@@ -5691,10 +5691,28 @@ h5 {
   width: 15%; }
 
 .ojo {
+  text-align: center;
+  margin: 20px auto; }
+
+.eyes {
   text-align: center; }
+  .eyes img {
+    width: 30%; }
 
 .clik {
   text-align: center;
   color: red; }
+
+.faltas, .promedio {
+  display: none;
+  cursor: pointer; }
+
+.icon {
+  list-style: none;
+  padding: 0px; }
+
+.mostrar, .fecha {
+  display: none;
+  cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */
