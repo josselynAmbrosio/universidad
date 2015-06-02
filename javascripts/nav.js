@@ -14,6 +14,8 @@ $( document ).ready(function() {
 		$(this).parent().find(".faltas").toggle();
 		$(this).hide();
 	});
+
+
 	$(".open-ojo").click(function(){
 		$(this).parent().find(".fecha").toggle();
 		$(this).parent().find(".mostrar").toggle();
@@ -30,4 +32,5 @@ $( document ).ready(function() {
 		$(this).parent().find(".fecha").toggle();
 		$(this).hide();
 	});
+	
 });
